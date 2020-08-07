@@ -1,0 +1,72 @@
+---
+# Logs information about each generator to the consnole
+# Available options: ERRORS, WARNINGS, ALL
+# Note: I only recommend using ALL logs for debugging when running 1 thread
+log-density: ALL
+
+# Shows the browser windows
+show-browsers: true
+
+# The method that will be used for creating verification emails
+# Available modes: DOMAIN, GMAIL_EXPLOIT
+email-method: DOMAIN
+
+# The login info for the master email
+# Only Google mail is supported
+master-username: ""
+master-password: ""
+
+# The way that proxies will be selected and used
+# Available options: NONE, ROTATING, LIST
+# If your using list mode, put your proxies in a file called 'proxies.txt' and put them in the configuration folder
+# If your stupid ass leaves spaces its your fault >:(
+proxy-mode: ROTATING
+
+# Your rotating proxy ip
+rotating-proxy: ""
+
+# The captcha solving service that will be used
+# Available services: TwoCaptcha
+captcha-generator: "TwoCaptcha"
+captcha-api-key: ""
+
+#The amount of generation threads that will be started
+threads: 1
+
+# The information that will be used for new accounts
+# Note: The username format is (name1)(5digits)(name2)
+#       and the domain should only be the url (i.e google.com)
+domains:
+  - ""
+password-length: 16
+username-dictionary:
+  - "liam"
+  - "noah"
+  - "william"
+  - "james"
+  - "logan"
+  - "benjamin"
+  - "mason"
+  - "elijah"
+  - "oliver"
+  - "jacob"
+  - "lucas"
+  - "michael"
+  - "alexander"
+  - "ethan"
+  - "daniel"
+  - "matthew"
+  - "aiden"
+  - "henry"
+  - "joseph"
+  - "jackson"
+  - "samuel"
+  - "sebastian"
+  - "david"
+  - "carter"
+  - "wyatt"
+  - "jayden"
+  - "john"
+  - "owen"
+  - "dylan"
+  - "luke"

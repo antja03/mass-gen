@@ -1,2 +1,7 @@
-# account-generator
-An account generator which can be used for many different services.
+# MassGen
+
+A modular account generator written in Java. Uses selenium and 2captcha to register to any website.
+
+**Supported services**
+- Steam
+- Discord
